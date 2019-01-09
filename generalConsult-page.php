@@ -7,10 +7,11 @@ get_header();
 ?>
 <nav class="navbar navbar-light backgroud-dark shadow p-3 mb-5">
             <a class="navbar-brand font-color-white" href="#">
-                <img src="static/img/logot.png"  height="30" class="d-inline-block align-top" alt="">
+            <img src="<?php echo get_template_directory_uri().'/assets/static/img/logot.png'; ?>"  height="30" class="d-inline-block align-top" alt="">
+
             </a>
-        </a>
-    </nav>
+        
+</nav>
     <div class="container mt-5">
         <h2 class="text-center">Consulta General de tramites</h2>
         <div class="container mt-5">
